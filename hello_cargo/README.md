@@ -1,7 +1,7 @@
 # Start a cargo project & project overview
 
 ```bash
-$ cargo new hello_cargo
+$ cargo new hello_cargo # cargo new hello_cargo --vcs=none if you don't want to initialize a git repo
 $ cd hello_cargo
 ```
 

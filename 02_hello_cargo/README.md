@@ -1,13 +1,13 @@
 # Start a cargo project & project overview
 
 ```bash
-$ cargo new hello_cargo # cargo new hello_cargo --vcs=none if you don't want to initialize a git repo
-$ cd hello_cargo
+$ cargo new 02_hello_cargo --name=hello_cargo # cargo new 02_hello_cargo --name=hello_cargo --vcs=none if you don't want to initialize a git repo
+$ cd 02_hello_cargo
 ```
 
-The first command creates a new directory and project called hello_cargo. We’ve named our project hello_cargo, and Cargo creates its files in a directory of the same name.
+The first command creates a new directory and project called `02_hello_cargo`. We’ve named our project `hello_cargo`, and Cargo creates its files in a directory of the same name.
 
-Go into the hello_cargo directory and list the files. You’ll see that Cargo has generated two files and one directory for us: a Cargo.toml file and a src directory with a main.rs file inside.
+Go into the `02_hello_cargo` directory and list the files. You’ll see that Cargo has generated two files and one directory for us: a Cargo.toml file and a src directory with a main.rs file inside.
 
 Open Cargo.toml in your text editor of choice. It should look similar to the code in Listing 1-2.
 
@@ -49,7 +49,7 @@ Cargo has generated a `“Hello, world!”` program for you, just like the one w
 
 ```bash
 $ cargo build
-    Compiling hello_cargo v0.1.0 (////rust_projects/hello_cargo)
+    Compiling hello_cargo v0.1.0 (////rust_projects/02_hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 1.25s
 ```
 
@@ -87,7 +87,7 @@ Cargo also provides a command called cargo check. This command quickly checks yo
 
 ```bash
 $ cargo check
-   Checking hello_cargo v0.1.0 (////rust_projects/hello_cargo)
+   Checking hello_cargo v0.1.0 (////rust_projects/02_hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 0.32 secs
 ```
 

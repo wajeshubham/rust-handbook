@@ -15,11 +15,11 @@ To create a new Cargo project for this guessing game, follow these steps:
    Open your terminal and run:
 
    ```bash
-   cargo new guessing_game
-   cd guessing_game
+   cargo new 03_guessing_game --name=guessing_game
+   cd 03_guessing_game
    ```
 
-   This command creates a new directory named `guessing_game` with a Cargo project inside it.
+   This command creates a new directory named `03_guessing_game` with a Cargo project with name `guessing_game` inside it.
 
 2. **Add Dependencies:**
 

@@ -49,7 +49,7 @@ Cargo has generated a `“Hello, world!”` program for you, just like the one w
 
 ```bash
 $ cargo build
-    Compiling hello_cargo v0.1.0 (////rust_projects/02_hello_cargo)
+    Compiling hello_cargo v0.1.0 (file:///projects/02_hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 1.25s
 ```
 
@@ -87,7 +87,7 @@ Cargo also provides a command called cargo check. This command quickly checks yo
 
 ```bash
 $ cargo check
-   Checking hello_cargo v0.1.0 (////rust_projects/02_hello_cargo)
+   Checking hello_cargo v0.1.0 (file:///projects/02_hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 0.32 secs
 ```
 

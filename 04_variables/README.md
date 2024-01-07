@@ -23,7 +23,7 @@ Save and run the program using `cargo run`. You should receive an error message 
 
 ```bash
 $ cargo run
-   Compiling variables v0.1.0 (file:///projects/04_variables)
+   Compiling variables v0.1.0 (file:///projects/variables)
 error[E0384]: cannot assign twice to immutable variable `x`
  --> src/main.rs:4:5
   |
@@ -61,7 +61,7 @@ When we run the program now, we get this:
 
 ```bash
 $ cargo run
-   Compiling variables v0.1.0 (/Users/schbangqdeepak/Desktop/rust_projects/04_variables)
+   Compiling variables v0.1.0 (file:///projects/variables)
     Finished dev [unoptimized + debuginfo] target(s) in 4.75s
      Running `target/debug/variables`
 You entered 5
